@@ -34,7 +34,7 @@
 
 
             select
-                {{ column }} as value
+                {{ column }} as "value"
 
             from {{ target_relation }}
 
